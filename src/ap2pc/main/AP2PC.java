@@ -4,16 +4,16 @@
  */
 package ap2pc.main;
 
-import ap2pc.main.visual.MainVisual;
-import ap2pc.main.conversation.ConversationMessage;
-import ap2pc.main.conversation.Conversation;
-import ap2pc.main.conversation.ConversationLibrary;
+import ap2pc.net.conn.Network;
+import ap2pc.conversation.ConversationMessage;
+import ap2pc.conversation.Conversation;
+import ap2pc.conversation.ConversationLibrary;
 import ap2pc.net.conn.XMPPClient;
 import ap2pc.net.stanza.obj.PresenceStanza;
 import ap2pc.net.stanza.obj.Stanza;
-import ap2pc.net.thread.Client;
-import ap2pc.net.thread.DiscoveryThread;
-import ap2pc.net.thread.Server;
+import ap2pc.net.conn.Client;
+import ap2pc.net.conn.DiscoveryThread;
+import ap2pc.net.conn.Server;
 import java.util.Calendar;
 import java.util.HashMap;
 

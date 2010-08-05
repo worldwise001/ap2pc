@@ -2,15 +2,17 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ap2pc.main;
+package ap2pc.net.conn;
 
-import ap2pc.main.conversation.Conversation;
+import ap2pc.main.AP2PC;
+import ap2pc.main.User;
+import ap2pc.conversation.Conversation;
 import ap2pc.net.conn.XMPPClient;
 import ap2pc.net.stanza.obj.ConversationStanza;
 import ap2pc.net.stanza.obj.Stanza;
-import ap2pc.net.thread.Client;
-import ap2pc.net.thread.DiscoveryThread;
-import ap2pc.net.thread.Server;
+import ap2pc.net.conn.Client;
+import ap2pc.net.conn.DiscoveryThread;
+import ap2pc.net.conn.Server;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import javax.xml.stream.XMLStreamException;

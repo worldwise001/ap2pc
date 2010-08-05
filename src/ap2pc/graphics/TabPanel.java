@@ -12,9 +12,9 @@ package ap2pc.graphics;
 
 import ap2pc.graphics.contactList.ConversationInviteList;
 import ap2pc.graphics.contactList.UserListModel;
-import ap2pc.main.conversation.Conversation;
-import ap2pc.main.conversation.ConversationMessage;
-import ap2pc.main.visual.ConversationVisual;
+import ap2pc.conversation.Conversation;
+import ap2pc.conversation.ConversationMessage;
+import ap2pc.main.ConversationVisual;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JList;

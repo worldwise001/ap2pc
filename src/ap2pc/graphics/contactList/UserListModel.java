@@ -4,8 +4,8 @@
  */
 package ap2pc.graphics.contactList;
 
-import ap2pc.main.conversation.Conversation;
-import ap2pc.main.visual.ConversationVisual.CHANGETYPE;
+import ap2pc.conversation.Conversation;
+import ap2pc.main.ConversationVisual.CHANGETYPE;
 import javax.swing.AbstractListModel;
 
 /**

@@ -13,8 +13,8 @@ package ap2pc.graphics.contactList;
 
 import ap2pc.main.AP2PC;
 import ap2pc.main.User;
-import ap2pc.main.conversation.Conversation;
-import ap2pc.main.visual.MainVisual.CHANGETYPE;
+import ap2pc.conversation.Conversation;
+import ap2pc.main.MainVisual.CHANGETYPE;
 import javax.swing.JDialog;
 import javax.swing.JList;
 import javax.swing.JOptionPane;

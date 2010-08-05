@@ -5,7 +5,7 @@
 package ap2pc.graphics.contactList;
 
 import ap2pc.main.AP2PC;
-import ap2pc.main.visual.MainVisual.CHANGETYPE;
+import ap2pc.main.MainVisual.CHANGETYPE;
 import javax.swing.AbstractListModel;
 
 /**

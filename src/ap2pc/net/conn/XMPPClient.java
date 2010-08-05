@@ -5,7 +5,6 @@
 package ap2pc.net.conn;
 
 import ap2pc.main.AP2PC;
-import ap2pc.main.Network;
 import ap2pc.net.stanza.obj.ConversationStanza;
 import ap2pc.net.stanza.obj.Stanza;
 import ap2pc.net.stanza.obj.StanzaFormatter;
